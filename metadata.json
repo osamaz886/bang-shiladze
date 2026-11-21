@@ -1,0 +1,6 @@
+{
+  "name": "Bang",
+  "description": "کاتێن بانگی شێلادزێ - Bang Shiladze Prayer Times",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

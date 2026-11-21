@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-canvas: #060e24;
+    --bg-surface: #0d1c42;
+    --bg-surface-elevated: #122452;
+    --accent-gold: #e2be74;
+    --accent-gold-deep: #b88735;
+  }
+
+  html {
+    font-family: 'Readex Pro', 'Noto Sans Arabic', system-ui, -apple-system, sans-serif;
+    background-color: #060e24;
+    color: #f5f7fa;
+  }
+}
+
+.font-clock {
+  font-family: 'JetBrains Mono', 'Readex Pro', monospace;
+  font-variant-numeric: tabular-nums;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
